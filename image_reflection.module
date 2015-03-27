@@ -10,12 +10,3 @@
 // Add image_reflection specific js files.
 drupal_add_js(drupal_get_path('module', 'image_reflection') . '/js/mootools.js');
 drupal_add_js(drupal_get_path('module', 'image_reflection') . '/js/reflection.js');
-
-?>
-<script type="text/javascript">
-  window.addEvent('domready',function() {
-    $$('img.reflect').each(function(img) {
-      img.reflect();
-    });
-  });
-</script>
